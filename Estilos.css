@@ -1,0 +1,65 @@
+.h1 {
+    color: #f0ecec; 
+    text-align: left;
+    }
+  
+    .h2 {
+      color: #f0eded; 
+      text-align: left; 
+      font-size: 20px; 
+      margin-top: 1px; 
+      justify-content: space-between;
+      max-width: 800px; /* Limita el ancho del texto a un máximo de 800px */
+      width: 100%;      /* Asegura que ocupe el 100% de su contenedor hasta el máximo especificado */
+      line-height: 1.6; /* Ajusta el interlineado para mejorar la legibilidad */
+      padding: 1px;    /* Añade un poco de espacio interno para separar el texto de los bordes */
+  }
+  .navbar {
+      background-color: #5f1223; 
+      display: flex;
+      justify-content:center ; 
+      padding: 0; 
+      font-size: medium;
+     
+    }
+    
+    .container-fluid {
+      display: flex;
+      justify-content: center; 
+    }
+    
+    
+    
+    .navbar-collapse {
+      display: flex;
+      justify-content: center; 
+      
+    }
+    
+    .navbar-nav {
+      display: flex; 
+      flex-direction: row; 
+      justify-content: center; 
+      
+    }
+    
+    .nav-item {
+      margin: 0 15px; 
+    }
+    
+    .navbar-nav .nav-item .nav-link {
+      color: #f3f0f0; 
+      font-size: 40px; 
+    }
+    
+    .navbar-nav .nav-item .nav-link:hover {
+      color: #000;
+    }
+    
+    .navbar-nav .nav-item .nav-link.active {
+      color: #007bff; 
+    }
+    
+    .navbar-nav .nav-item .nav-link.disabled {
+      color: #aaa; 
+    }
